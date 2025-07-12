@@ -41,7 +41,6 @@ body {
   left: 20px;
   margin: 0;
   opacity: 0;
-  transition: opacity 0.4s ease-in 0.3s;
 }
 
 .panel.active {
@@ -50,6 +49,7 @@ body {
 
 .panel.active h3 {
   opacity: 1;
+  transition: opacity 0.4s ease-in 0.3s;
 }
 
 @media only screen and (max-width: 480px) {
